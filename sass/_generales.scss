@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Poppins:wght@200&display=swap");
+
+
+* {
+    font-family: "Krub", sans-serif;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(192, 192, 192);
+
+    main {
+        font-size: larger;
+        text-align: center;
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: larger;
+        }
+        
+        h3 {
+            font-size: xx-large;
+        }
+    }
+
+    .datos {
+        font-size: x-large;
+    }
+    
+    .fondo {
+        background-color: silver;
+        margin-bottom: 2rem;
+    }
+
+}
+
+.contenedor {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    min-height: calc(100vh - (100px + 100px));
+    
+    .contenedor-servicios {
+        display: grid;
+        background-color: cornsilk;
+        grid-template-columns: 2;
+        margin: 20px;
+        font-size: large;
+
+        .servicio-1 {
+            text-align: center;
+            justify-content: left;
+            margin: 10px;
+        }
+        
+        .servicio-madera {
+            background-color:darkgrey;
+        }
+        
+        .servicio-materiales {
+            background-color: darkgrey;
+            margin-bottom: 20px;
+        }
+    }
+
+    .fondo-nosotros {
+        background-color: silver;
+
+        .nosotros {
+            text-align: center;
+            font-size:  x-large;
+            margin: 10px;
+        }
+    }
+}
+
+
+
+

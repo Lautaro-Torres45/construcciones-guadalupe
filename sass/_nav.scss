@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    text-align: center;
+
+    .linkheader {
+        margin-left: 60px !important;
+        margin-right: 60px !important;
+    }
+
+    nav a {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+
+
+        }
+
+        nav a:hover {
+            background-color: #929fb3;
+            border-radius: 40px;
+    }
+    }
+
+
+
+

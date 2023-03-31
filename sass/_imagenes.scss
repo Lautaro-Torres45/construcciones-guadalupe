@@ -1,0 +1,66 @@
+
+.contenedor-obras {
+    display: grid;
+    margin: 20px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+
+
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+}
+
+.img1 {
+    grid-column: 1;
+}
+
+.img2 {
+    grid-column: 2;
+}
+
+.img3 {
+    grid-column: 3;
+}
+
+.img4 {
+    grid-column: 4;
+}
+
+.contenedorimg {
+    display: grid;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    grid-template-columns: 4;
+    gap: 20px;
+
+
+}
+
+.imagen1 {
+    grid-column: 1;
+    width: 200px;
+    height: 200px;
+}
+
+.imagen2 {
+    grid-column: 2;
+    width: 200px;
+    height: 200px;
+}
+
+.imagen3 {
+    grid-column: 3;
+    width: 200px;
+    height: 200px;
+}
+
+.imagen4 {
+    grid-column: 4;
+    width: 200px;
+    height: 200px;
+}
