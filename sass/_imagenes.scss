@@ -9,9 +9,13 @@
 
 }
 
-.img-size {
+@mixin img-tamaño {
     width: 200px;
     height: 200px;
+}
+
+.img-size {
+    @include img-tamaño;
 }
 
 .img1 {
