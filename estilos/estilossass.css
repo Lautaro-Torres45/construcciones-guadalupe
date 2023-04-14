@@ -15,13 +15,16 @@ body main h1 {
 }
 body main h2 {
   text-align: center;
+  font-weight: bold;
 }
 body main p {
   text-align: center;
   font-size: larger;
+  font-weight: bold;
 }
 body main h3 {
   font-size: xx-large;
+  font-weight: bold;
 }
 body .texto-ubicaciones {
   font-size: larger;
@@ -39,12 +42,12 @@ body .ubicaciones-obras .ubicacion-21 {
   text-align: center;
 }
 body .ubicaciones-obras .ubicacion-22 {
-  height: 100vh;
+  height: 450px;
   background-color: rgb(206, 206, 131);
   text-align: center;
 }
 body .ubicaciones-obras .ubicacion-13 {
-  height: 100vh;
+  height: 400px;
   background-color: rgb(235, 235, 184);
   text-align: center;
 }
@@ -53,7 +56,8 @@ body .datos {
 }
 body .fondo {
   background-color: silver;
-  margin-bottom: 2rem;
+  margin-bottom: 200px;
+  margin-top: 100px;
 }
 
 .contenedor {
@@ -71,18 +75,18 @@ body .fondo {
   grid-template-columns: 2;
   margin: 20px;
   font-size: large;
+  font-weight: bold;
 }
-.contenedor .contenedor-servicios .servicio-1 {
-  text-align: center;
-  justify-content: left;
-  margin: 10px;
+.contenedor .contenedor-servicios .servicio-piedra {
+  padding-bottom: 30px;
 }
 .contenedor .contenedor-servicios .servicio-madera {
   background-color: darkgrey;
+  padding-bottom: 30px;
 }
 .contenedor .contenedor-servicios .servicio-materiales {
   background-color: darkgrey;
-  margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 .contenedor .fondo-nosotros {
   background-color: silver;
@@ -91,6 +95,8 @@ body .fondo {
   text-align: center;
   font-size: x-large;
   margin: 10px;
+  font-weight: bold;
+  justify-content: center;
 }
 
 header {
@@ -199,14 +205,16 @@ header .nav-estilo .div-estilo .a-estilo {
   height: 200px;
 }
 
-footer {
+.pie {
   display: flex;
   min-height: 100px;
   background-color: black;
-  color: azure;
-  justify-content: center;
-  align-items: center;
   box-sizing: border-box;
+  justify-content: center;
+}
+.pie .iconos-contactos {
+  height: 48px;
+  width: 48px;
 }
 
 @media (max-width: 1024px) {

@@ -20,15 +20,18 @@ body {
 
         h2 {
             text-align: center;
+            font-weight: bold;
         }
 
         p {
             text-align: center;
             font-size: larger;
+            font-weight: bold;
         }
         
         h3 {
             font-size: xx-large;
+            font-weight: bold;
         }
 
     }
@@ -55,13 +58,13 @@ body {
     }
 
     .ubicacion-22 {
-        height: 100vh;
+        height: 450px;
         background-color: rgb(206, 206, 131);
         text-align: center;
     }
 
     .ubicacion-13 {
-        height: 100vh;
+        height: 400px;
         background-color: rgb(235, 235, 184);
         text-align: center;
     } 
@@ -73,10 +76,13 @@ body {
     
     .fondo {
         background-color: silver;
-        margin-bottom: 2rem;
+        margin-bottom: 200px;
+        margin-top: 100px;
+
     }
 
 }
+
 
 .contenedor {
     display: grid;
@@ -93,22 +99,23 @@ body {
         grid-template-columns: 2;
         margin: 20px;
         font-size: large;
+        font-weight: bold;
 
-        .servicio-1 {
-            text-align: center;
-            justify-content: left;
-            margin: 10px;
+        .servicio-piedra {
+            padding-bottom: 30px;
         }
         
         .servicio-madera {
             background-color:darkgrey;
+            padding-bottom: 30px;
         }
         
         .servicio-materiales {
             background-color: darkgrey;
-            margin-bottom: 20px;
+            padding-bottom: 30px;
         }
     }
+
 
     .fondo-nosotros {
         background-color: silver;
@@ -117,6 +124,8 @@ body {
             text-align: center;
             font-size:  x-large;
             margin: 10px;
+            font-weight: bold;
+            justify-content: center;
         }
     }
 }
