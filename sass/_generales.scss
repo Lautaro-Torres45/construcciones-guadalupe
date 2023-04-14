@@ -9,11 +9,14 @@
 }
 
 body {
-    background-color: rgb(192, 192, 192);
 
     main {
         font-size: larger;
         text-align: center;
+
+        h1 {
+            font-weight: bold;
+        }
 
         h2 {
             text-align: center;
@@ -27,6 +30,40 @@ body {
         h3 {
             font-size: xx-large;
         }
+
+    }
+
+    .texto-ubicaciones {
+        font-size: larger;
+        font-weight: bold;
+        max-width: border;
+        max-height: border;
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .ubicaciones-obras {
+
+
+
+    .ubicacion-21 {
+        height: 100vh;
+        background-color: rgb(252, 252, 152);
+        text-align: center;
+    }
+
+    .ubicacion-22 {
+        height: 100vh;
+        background-color: rgb(206, 206, 131);
+        text-align: center;
+    }
+
+    .ubicacion-13 {
+        height: 100vh;
+        background-color: rgb(235, 235, 184);
+        text-align: center;
+    } 
     }
 
     .datos {
@@ -46,6 +83,7 @@ body {
     align-items: center;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 100px;
     min-height: calc(100vh - (100px + 100px));
     
     .contenedor-servicios {

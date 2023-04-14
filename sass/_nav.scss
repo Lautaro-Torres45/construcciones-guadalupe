@@ -1,33 +1,26 @@
 header {
-    display: flex;
     background-color: blanchedalmond;
-    width: 100%;
-    height: fit-content;
-    justify-content: center;
-    text-align: center;
 
-    .linkheader {
-        margin-left: 60px !important;
-        margin-right: 60px !important;
-    }
 
-    nav a {
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            text-decoration: none;
-            font-weight: bold;
-            color: black;
+    .nav-estilo {
+        padding: 0px;
 
+        .boton-estilo {
+            background-color: blanchedalmond;
         }
 
-        nav a:hover {
-            background-color: #929fb3;
+        .div-estilo {
+            background-color: blanchedalmond;
+            padding: 0px;
+            justify-content: center;
+
+            .a-estilo {
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 20px;
+                font-weight: bold;
+                font-size: large;
+                }
+            }
+        }
     }
-    }
-
-
-
-
