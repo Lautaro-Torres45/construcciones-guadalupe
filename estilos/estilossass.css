@@ -28,7 +28,7 @@ body main h4 {
 }
 body main p {
   text-align: center;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
 }
 body .ubicaciones-obras .lista {
@@ -57,7 +57,7 @@ body .ubicaciones-obras .ubicacion-13 {
   padding-top: 20px;
 }
 body .datos {
-  font-size: large;
+  font-size: medium;
 }
 body .fondo {
   background-color: rgba(171, 250, 225, 0.9843137255);
