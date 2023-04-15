@@ -120,13 +120,18 @@ header .nav-estilo .div-estilo {
   padding: 0px;
   justify-content: center;
 }
+header .nav-estilo .div-estilo a:hover {
+  background-color: orange;
+  border-radius: 150%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
 header .nav-estilo .div-estilo .a-estilo {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
   font-weight: bold;
   font-size: large;
-  transition: 0.5s;
 }
 
 .contenedor-obras {
