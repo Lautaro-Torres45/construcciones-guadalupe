@@ -23,65 +23,73 @@ body {
             font-weight: bold;
         }
 
-        p {
-            text-align: center;
-            font-size: larger;
-            font-weight: bold;
-        }
-        
         h3 {
             font-size: xx-large;
             font-weight: bold;
         }
 
+        h4 {
+            font-size: xx-large;
+            font-weight: bolder;
+            margin-top: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+        
+
     }
 
-    .texto-ubicaciones {
-        font-size: larger;
-        font-weight: bold;
-        max-width: border;
-        max-height: border;
-        text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 30px;
-    }
+
+
 
     .ubicaciones-obras {
 
+        .lista {
+            font-weight: bold;
+            font-size: medium;
+            justify-content: start;
+            list-style-type: none;
+            margin-bottom: 10px;
+            }
 
+        .ubicacion-21 {
+            height: 100vh;
+            background-color: #abfae1fb;
+            text-align: center;
+            padding-top: 30px;
+            }
 
-    .ubicacion-21 {
-        height: 100vh;
-        background-color: rgb(252, 252, 152);
-        text-align: center;
+        .ubicacion-22 {
+            height: 450px;
+            background-color: rgba(135, 247, 211, 0.984);
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .ubicacion-13 {
+            height: 500px;
+            background-color: #59f5c3fb;
+            text-align: center;
+            padding-top: 20px;
+        } 
     }
 
-    .ubicacion-22 {
-        height: 450px;
-        background-color: rgb(206, 206, 131);
-        text-align: center;
-    }
 
-    .ubicacion-13 {
-        height: 400px;
-        background-color: rgb(235, 235, 184);
-        text-align: center;
-    } 
-    }
 
     .datos {
         font-size: large;
     }
     
     .fondo {
-        background-color: silver;
+        background-color: #abfae1fb;
         margin-bottom: 200px;
         margin-top: 100px;
-
+        }
     }
-
-}
 
 
 .contenedor {
@@ -93,43 +101,41 @@ body {
     margin-bottom: 100px;
     min-height: calc(100vh - (100px + 100px));
     
-    .contenedor-servicios {
-        display: grid;
-        background-color: cornsilk;
-        grid-template-columns: 2;
-        margin: 20px;
-        font-size: large;
+
+}
+
+
+.fondo-nosotros {
+    background-color: #abfae1fb;
+
+    .nosotros {
+        text-align: center;
+        font-size:  x-large;
+        margin: 10px;
         font-weight: bold;
+        justify-content: center;
+    }
+}
+
+.contenedor-servicios {
+    display: grid;
+    background-color: #a3f5dbfb;
+    grid-template-columns: 2;
+    margin: 20px;
+    font-size: large;
+    font-weight: bold;
 
         .servicio-piedra {
             padding-bottom: 30px;
         }
-        
+
         .servicio-madera {
-            background-color:darkgrey;
-            padding-bottom: 30px;
-        }
-        
+        background-color:#d4f5eafb;
+        padding-bottom: 30px;
+    }
+
         .servicio-materiales {
-            background-color: darkgrey;
-            padding-bottom: 30px;
-        }
-    }
-
-
-    .fondo-nosotros {
-        background-color: silver;
-
-        .nosotros {
-            text-align: center;
-            font-size:  x-large;
-            margin: 10px;
-            font-weight: bold;
-            justify-content: center;
-        }
-    }
+        background-color: #7bf8d0fb;
+        padding-bottom: 30px;
 }
-
-
-
-
+}

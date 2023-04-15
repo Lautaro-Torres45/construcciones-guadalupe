@@ -1,16 +1,16 @@
 header {
-    background-color: blanchedalmond;
+    background-color: #dbebe6fb;
 
 
     .nav-estilo {
         padding: 0px;
 
         .boton-estilo {
-            background-color: blanchedalmond;
+            background-color: #dbebe6fb;
         }
 
         .div-estilo {
-            background-color: blanchedalmond;
+            background-color: #dbebe6fb;
             padding: 0px;
             justify-content: center;
 
@@ -20,6 +20,7 @@ header {
                 margin-top: 20px;
                 font-weight: bold;
                 font-size: large;
+                transition: .5s;
                 }
             }
         }
