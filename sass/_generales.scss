@@ -44,16 +44,22 @@ body {
     }
 
 
-
+.contenedor-fondo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
     .ubicaciones-obras {
+
+        h4 {
+            margin-top: 10px;
+        }
 
         .lista {
             font-weight: bold;
             font-size: medium;
             justify-content: start;
             list-style-type: none;
-            margin-bottom: 10px;
             }
 
         .ubicacion-21 {
@@ -64,14 +70,14 @@ body {
             }
 
         .ubicacion-22 {
-            height: 450px;
+            height: 500px;
             background-color: rgba(135, 247, 211, 0.984);
             text-align: center;
             padding-top: 20px;
         }
 
         .ubicacion-13 {
-            height: 500px;
+            height: 600px;
             background-color: #59f5c3fb;
             text-align: center;
             padding-top: 20px;
@@ -86,8 +92,8 @@ body {
     
     .fondo {
         background-color: #abfae1fb;
-        margin-bottom: 200px;
-        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-top: 20px;
         }
     }
 
