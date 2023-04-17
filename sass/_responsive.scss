@@ -12,6 +12,24 @@
 
     }
 
+    .fondo-nosotros {
+        height: 100vh;
+
+        h3 {
+            font-size: xx-large;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+
+        .nosotros {
+            font-size: xx-large;
+            font-weight: bold;
+            text-align: center;
+            align-items: center;
+            margin-top: 200px;
+        }
+    }
+
     .lista {
         font-size: xx-large;
         font-weight: bolder;
@@ -24,10 +42,6 @@
     }
 
     .ubicacion-21 {
-
-
-
-
 
     .obra-21 {
 
@@ -101,11 +115,30 @@
 
 }
 
-
-    
+.servicio-madera {
+    background-color: #abfae1fb;
+    text-align: center;
+    height: 400px;
 }
 
+.servicio-piedra {
+    background-color: aquamarine;
+    text-align: center;
+    height: 400px;
+}
 
+.servicio-materiales {
+    background-color: rgb(72, 252, 192);
+    text-align: center;
+    height: 400px;
+}
+
+.texto-servicios {
+    font-size: xx-large;
+    font-weight: bold;
+    }
+
+}
 
 @media (max-width: 1024px) {
     .contenedorimg {

@@ -41,7 +41,7 @@ body {
         }
         
 
-    }
+}
 
 
 .contenedor-fondo {
@@ -107,7 +107,6 @@ body {
     margin-bottom: 100px;
     min-height: calc(100vh - (100px + 100px));
     
-
 }
 
 
@@ -123,25 +122,20 @@ body {
     }
 }
 
-.contenedor-servicios {
-    display: grid;
-    background-color: #a3f5dbfb;
-    grid-template-columns: 2;
-    margin: 20px;
-    font-size: large;
-    font-weight: bold;
-
-        .servicio-piedra {
-            padding-bottom: 30px;
-        }
-
-        .servicio-madera {
-        background-color:#d4f5eafb;
-        padding-bottom: 30px;
-    }
-
-        .servicio-materiales {
-        background-color: #7bf8d0fb;
-        padding-bottom: 30px;
+.servicio-madera {
+    background-color: #abfae1fb;
+    text-align: center;
+    height: 300px;
 }
+
+.servicio-piedra {
+    background-color: aquamarine;
+    text-align: center;
+    height: 300px;
+}
+
+.servicio-materiales {
+    background-color: rgb(72, 252, 192);
+    text-align: center;
+    height: 300px;
 }

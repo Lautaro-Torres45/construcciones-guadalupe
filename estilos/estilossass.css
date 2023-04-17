@@ -92,24 +92,22 @@ body .fondo {
   justify-content: center;
 }
 
-.contenedor-servicios {
-  display: grid;
-  background-color: rgba(163, 245, 219, 0.9843137255);
-  grid-template-columns: 2;
-  margin: 20px;
-  font-size: large;
-  font-weight: bold;
+.servicio-madera {
+  background-color: rgba(171, 250, 225, 0.9843137255);
+  text-align: center;
+  height: 300px;
 }
-.contenedor-servicios .servicio-piedra {
-  padding-bottom: 30px;
+
+.servicio-piedra {
+  background-color: aquamarine;
+  text-align: center;
+  height: 300px;
 }
-.contenedor-servicios .servicio-madera {
-  background-color: rgba(212, 245, 234, 0.9843137255);
-  padding-bottom: 30px;
-}
-.contenedor-servicios .servicio-materiales {
-  background-color: rgba(123, 248, 208, 0.9843137255);
-  padding-bottom: 30px;
+
+.servicio-materiales {
+  background-color: rgb(72, 252, 192);
+  text-align: center;
+  height: 300px;
 }
 
 header {
@@ -305,6 +303,21 @@ header .nav-estilo .div-estilo .a-estilo {
     margin-bottom: 20px;
     min-height: calc(100vh - 400px);
   }
+  .fondo-nosotros {
+    height: 100vh;
+  }
+  .fondo-nosotros h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .fondo-nosotros .nosotros {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+  }
   .lista {
     font-size: xx-large;
     font-weight: bolder;
@@ -362,6 +375,25 @@ header .nav-estilo .div-estilo .a-estilo {
     border-radius: 5%;
     transform: scale(1.1);
     overflow: hidden;
+  }
+  .servicio-madera {
+    background-color: rgba(171, 250, 225, 0.9843137255);
+    text-align: center;
+    height: 400px;
+  }
+  .servicio-piedra {
+    background-color: aquamarine;
+    text-align: center;
+    height: 400px;
+  }
+  .servicio-materiales {
+    background-color: rgb(72, 252, 192);
+    text-align: center;
+    height: 400px;
+  }
+  .texto-servicios {
+    font-size: xx-large;
+    font-weight: bold;
   }
 }
 @media (max-width: 1024px) {
