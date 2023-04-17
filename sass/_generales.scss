@@ -112,11 +112,17 @@ body {
 
 .fondo-nosotros {
     background-color: #abfae1fb;
+    height: 100vh;
+
+    h3 {
+        text-align: center;
+        padding-top: 50px;
+    }
 
     .nosotros {
+        margin-top: 100px;
         text-align: center;
         font-size:  x-large;
-        margin: 10px;
         font-weight: bold;
         justify-content: center;
     }

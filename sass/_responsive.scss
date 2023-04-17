@@ -217,6 +217,25 @@
 
 @media (max-width: 768px) {
 
+    .fondo-nosotros {
+        background-color: #abfae1fb;
+        height: 100vh;
+    
+        h3 {
+            text-align: center;
+            padding-top: 10px;
+            font-weight: bold;
+        }
+    
+        .nosotros {
+            margin-top: 50px;
+            text-align: center;
+            font-size:  large;
+            font-weight: bold;
+            justify-content: center;
+        }
+    }
+
     .ubicacion-21 {
         height: 100vh;
         background-color: rgb(252, 252, 152);
